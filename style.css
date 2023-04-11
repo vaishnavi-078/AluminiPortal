@@ -1,0 +1,253 @@
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header Styles */
+header {
+  background-color: #00407f;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 75px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #00407f;
+}
+
+
+/* Banner Styles */
+
+#banner {
+  margin-top: 90px;
+  background-image: url('images/cvrclg.jfif');
+  background-position: center;
+  background-size: cover;
+  color: /*#3a3672*/white;
+  text-align: center;
+  padding: 150px 0;
+}
+
+#banner h1 {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+#banner p {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+/* About Section Styles */
+
+#about {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+/* Alumni Directory Section Styles */
+
+#directory {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#directory h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+th {
+  background-color: #00407f;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Contact Section Styles */
+
+.container-contact{
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px
+
+}
+#contact {
+  background-color: #fff;
+  padding: 100px 0;
+  
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+#contact p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+form {
+  
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+textarea {
+height: 200px;
+}
+
+button {
+background-color: #00407f;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #fff;
+color: #00407f;
+}
+
+/* Footer Styles */
+
+footer {
+background-color: #00407f;
+color: #fff;
+padding: 30px 0;
+text-align: center;
+}
+
+.footer-logo {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.footer-links a {
+display: inline-block;
+margin: 0 10px;
+color: #fff;
+text-decoration: none;
+}
+
+.footer-links a:hover {
+text-decoration: underline;
+}

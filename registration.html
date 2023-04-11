@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/cvrlogo.jfif" />
+    <title>Registration</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="styleReg.css">
+    <script src="alumniReg.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/cvrlogo.jfif" alt="CVR College of Engineering">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="alumni.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Alumni Directory</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="form-login">
+        <form>
+            <h4>PERSONAL INFORMATION :</h4>
+            <label>Name :  </label><input type="text">
+            <label>Mobile Number</label><input type="number">
+            <label>Email :</label><input type="email">
+            <label>User Name :  </label><input type="text">
+            <label>Password :   </label><input type="password">
+            <h4>EDUCATION INFORMATION :</h4>
+            <label>Year of joining:  </label><input type="date">
+            <label>Year of Passing:</label><input type="date">
+            <label>College Email :</label><input type="email">
+            <label>College ID :  </label><input type="text">
+            <label for="branch">Branch:</label>
+
+                <select name="branch">
+                <option value="cse">CSE</option>
+                <option value="it">IT</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="mech">MECHANICAL</option>
+            </select>
+            
+        </form>
+        <button id="btn-sub">SUBMIT</button>
+        <h6 >Registered SuccessFully <a href="login.html">Login</a>    Now</h6>
+    </section>
+</body>
+</html>
